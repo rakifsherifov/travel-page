@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* header start */
+.header-general{
+    display: inline;
+}
+.container{
+    max-width: 1300px;
+    padding: 10px 0 0 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.header-general .logo{
+    display: inline-block;
+}
+
+.header-general .logo img{
+    margin-top: 10px;
+    width: 80px;
+}
+
+.header-general .nav ul li{
+    display: inline-block;
+    font-weight: 700;
+    padding: 35px 0 0 35px;
+}
+.header-general .nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+hr{
+    border: 1px solid;
+    color: gray;
+}
+/* header end */
+
+/* main start */
+
+.container2{
+    max-width: 1300px;
+    margin: auto;
+}
+.all-cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-header{
+    text-align: center;
+}
+.main-header h4{
+    font-size: 16px;
+    color: rgb(240, 240, 11);
+}
+.main-header h1{
+    margin-bottom: 70px;
+    font-size: 50px;
+    font-weight: 700;
+}
+.card-body .fa-star{
+    color: yellow   ;
+}
+.card-body .supers{
+    margin-left: 5px;
+    color: gray;
+}
+.card-title{
+    font-weight: 700;
+}
+.card-text{
+    color: green;
+    font-weight: 600;
+}
+.card-body .person{
+    color: black; 
+}
+
+.card-body .fa-clock{
+    margin-top: 15px;
+    margin-right: 5px;
+    color: gray;
+}
+.card-body .fa-location-dot{
+    margin-left: 10px;
+    color: gray;
+}
+
+
+
+
+/* main end */
